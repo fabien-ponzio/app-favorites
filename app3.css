@@ -1,0 +1,87 @@
+.titre3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color:#09b1ba;
+    color:#b5525c;
+    margin: 20px;
+}
+.clown{
+    width: 15vw;
+}
+
+@font-face{
+    font-family: 'social-media.ttf';
+    src: url('social-media.ttf');
+}
+
+footer{
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: 'social-media.ttf';
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #09b1ba;
+}
+
+body{
+    font-size: x-large;
+    font-family: 'Lobster', cursive;
+}
+
+.dlvinted{
+        border:#09b1ba solid;
+        margin-left: 15vw ;
+        margin-right: 15vw ;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+.dlvinted:hover{
+color: white;
+background-color: #09b1ba ;
+transition: 1s;
+}
+
+.dlvinted:hover a{
+    color: white;
+    transition: 1s;
+}
+
+.texte{
+    display: flex;
+    flex-direction: column;
+}
+
+.texte1{
+    display: flex;
+text-align: left;
+}
+
+.texte2{
+    display: flex;
+text-align: center ;
+}
+
+.texte3{
+    display: flex ;
+    text-align: right;
+}
+
+h1 {
+    color: #105e62;
+    text-align: center;
+}
+
+.vinted{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+

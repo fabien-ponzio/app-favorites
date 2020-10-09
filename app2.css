@@ -1,0 +1,104 @@
+.titre2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1da1f2;
+    color: #3282b8;
+    margin: 20px;
+}
+
+.intro1{
+    background-color: #bbe1fa;
+    color: #0f4c75;
+    display: flex;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.top3{
+    text-align: center;
+    font-size: xx-large; 
+    margin-bottom: 10px;
+    background-color: #1b262c;
+    color: #3282b8;
+}
+
+.Guedilien{
+    display: flex;
+    justify-content: center;
+
+}
+
+.rqcoonnlien{
+    display: flex;
+    justify-content: center;
+}
+
+.gatherlien{
+    display: flex;
+    justify-content: center;
+}
+
+#boxtweet{
+    display: flex;
+    justify-content: center;
+}
+
+.intro2{
+    background-color: #1da1f2;
+    color: #bbe1fa;
+    display: flex;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.twitter-tweet{
+align-items: center;
+}
+
+.clown{
+width: 15vw;
+}
+
+@font-face{
+    font-family: 'social-media.ttf';
+    src: url('social-media.ttf');
+}
+
+footer{
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: 'social-media.ttf';
+    text-decoration: none;   
+}
+
+a{
+    text-decoration: none;
+    color: #1da1f2;
+}
+
+.dltwitter{
+    border:#1da1f2 solid;
+    margin-left: 15vw ;
+    margin-right: 15vw ;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dltwitter:hover{
+    color: white;
+    background-color:#1da1f2 ;
+    transition: 1s;
+}
+
+.dltwitter:hover a{
+    color: white;
+    transition: 1s;
+}
+
+body{
+    font-size: x-large;
+    font-family: 'Fredoka One', cursive;
+}

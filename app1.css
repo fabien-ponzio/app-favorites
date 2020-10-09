@@ -1,0 +1,116 @@
+html{
+    overflow-x: hidden;
+}
+.titre{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Zilla Slab', serif;
+}
+
+
+.compte {
+    display: flex;
+    flex-direction: column;
+} 
+
+.ray{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.titreray{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+}
+.photoray{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.titreklap{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+}
+.klap{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.photoklap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.fit{
+text-align: center;
+margin-bottom: 45px;
+}
+.titrefit{
+font-size: xx-large;
+margin-bottom: 10px;
+background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+}
+.Lien{
+    font-style: oblique;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-family: 'Zilla Slab', serif;
+}
+
+.clown{
+    width: 25vw;
+}
+
+@font-face{
+    font-family: 'social-media.ttf';
+    src: url('social-media.ttf');
+}
+
+footer{
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: 'social-media.ttf';
+    text-decoration: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #8a36c5;
+}
+
+body{
+    font-size: x-large;
+    font-family: 'Slabo 27px', serif;
+}
+
+.dlinsta{
+    border:#8a36c5 solid;
+    margin-left: 15vw ;
+    margin-right: 15vw ;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dlinsta:hover{
+    color: white;
+    background-color:#8a36c5;
+    transition: 1s;
+}
+
+.dlinsta:hover a{
+    color: white;
+    transition: 1s;
+}
